@@ -50,3 +50,9 @@ variable "key_path" {
   description = "Path to the SSH private key"
   type        = string
 }
+
+variable "domain_name" {
+  description = "The domain name to be used for the Route 53 hosted zone."
+  type        = string
+  default     = "cloudleaf.org"
+}
